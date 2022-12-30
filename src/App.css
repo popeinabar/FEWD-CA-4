@@ -1,0 +1,104 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+  
+  }
+  #quistion-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 85vh;
+    width: 85vw;
+    background-color: rgb(255, 128, 0);
+    box-shadow: 10px 10px ;
+  }
+  #ques-head{
+    margin-top: 2rem;
+    font-size: 2rem;
+  }
+  #question-number{
+    align-self: center;
+    /* margin-left: 2rem; */
+    font-weight: bold;
+  }
+  #question{
+    font-weight: bold;
+    text-align: center;
+    font-size: 2rem;
+  }
+  .option-div {
+    height: 35vh;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    /* grid-template-row: repeat(4,1fr); */
+    grid-column-gap: 2rem;
+    justify-content: space-evenly;
+
+}
+  .options{
+    height: 6vh;
+    width: 35vw;
+    background-color: rgb(255, 255, 255);
+    
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    color: rgb(68, 63, 63);
+    box-shadow: 5px 5px ;
+    }
+    .options:hover{
+        background-color: rgb(255, 27, 27);
+    }
+
+    #result-box{
+        background-color:rgb(255, 128, 0);;
+        width: fit-content;
+        height: fit-content;
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: rgb(68, 63, 63);
+        box-shadow: 5px 5px ;
+    }
+    #res{
+        text-shadow: 1px, 1px, balck;
+    }
+    .play-again{
+        height: fit-content;
+        width: fit-content;
+        padding:20px;
+        background-color: red;
+        color: rgb(68, 63, 63);
+        box-shadow: 8px 8px ;
+
+    }
+
+    @media (max-width: 375px) { 
+        
+        .options {
+          width: fit-content ;
+          height: fit-content;
+        }
+      }
+        .btn{
+            height: fit-content;
+            width: fit-content;
+            padding:20px;
+            background-color: red;
+            color: rgb(68, 63, 63);
+            box-shadow: 5px 5px ;
+        }
+      
+      
+      
+      
